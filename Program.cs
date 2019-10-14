@@ -13,8 +13,8 @@ namespace consumer_app
         {
 
             String fAPath, fBPath;
-            List<String> qAlines = new List<String>(); //Temporary list to store each message in queue A
-            List<String> qBlines = new List<String>(); //Temporary list to store each message in queue B
+            List<String> qAlines = new List<String>(); //list to store each message from queue A
+            List<String> qBlines = new List<String>(); //list to store each message from queue B
 
             var factory = new ConnectionFactory() { HostName = "localhost" };
             using (var connection = factory.CreateConnection())
