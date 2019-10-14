@@ -94,7 +94,8 @@ namespace consumer_app
                 Console.WriteLine("Finished writing to files:");
                 Console.WriteLine(fAPath);
                 Console.WriteLine(fBPath);
-
+                Console.WriteLine("Press [enter] to exit.");
+            
                 Console.ReadLine();
             }
         }
